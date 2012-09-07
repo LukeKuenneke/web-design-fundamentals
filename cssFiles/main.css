@@ -1,0 +1,164 @@
+﻿* {
+	margin: 0;
+	padding: 0;
+}
+* body {
+	font: .8em Arial, Sans-Serif;
+	line-height: 1.8em;
+	background: #968CC4;
+	color: #444;
+}
+a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+h2 {
+	margin: 0 0 10px;
+	padding: 10px 0 3px;
+	color: #C63221;
+}
+h3 {
+	padding-left: 10px;
+	color: #FFFFFF;
+	background: #0A4B5D repeat-x;
+	font-size: 1em;
+	height: 24px;
+	line-height: 24px;
+}
+ul {
+	padding: 0;
+	margin: 0 0 10px;
+}
+li {
+	list-style-type: none;
+}
+p {
+	margin: 5px 0 10px 0;
+}
+img {
+	border: none;
+}
+#header {
+	
+	height: 150px;
+}
+#header h1 {
+	font-size: 30px;
+	font-weight: 100;
+	letter-spacing: -1px;
+	padding: 22px 0 5px 10px;
+}
+#header h1 a {
+	color: #fff;
+	text-decoration: none;
+}
+#header h1 a:hover {
+	color: #000;
+	text-decoration: none;
+}
+#header h2 {
+	color: #eee;
+	font-size: 19px;
+	font-weight: 100;
+	padding: 0 0 0 11px;
+	letter-spacing: -1px;
+	line-height: 12px;
+}
+#wrap {
+	padding: 10px 10px 3px 10px;
+	width: 950px;
+	margin: 20px auto;
+	background: #fff;
+}
+#left {
+	float: left;
+	width: 180px;
+	background: #000000;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+#left ul {
+	padding: 5px 10px 10px 10px;
+	margin: 0;
+}
+#right {
+	margin-bottom: 10px;
+	float: right;
+	width: 740px;
+	padding: 0 10px 10px 10px;
+	margin-top: 10px;
+}
+#footer {
+	font-size: 11px;
+	font-style: italic;
+	color: #333333;
+	font-family: "Trebuchet MS";
+	margin-right: auto;
+	margin-left: auto;
+	width: 950px;
+	height: 20px;
+	padding-right: 5px;
+	text-align: right;
+	border-top: 1px solid #ccc;
+	padding: 10px 5px;
+	border-top-color: #21007F;
+}
+#mono {
+	font-size: 0.9em;
+	font-family: courier, sans-serif;
+	text-align: left;
+	width: 560px;
+	margin: 1% 0 1% 0;
+	line-height: 1.25em;
+	border-width: 1px 1px 1px 1px;
+	border-color: #999;
+	border-style: solid;
+	padding: .5em .5em .5em .5em;
+	background: #fff;
+}
+.even{
+	background-color: #21007F;
+}
+#right a {
+	text-decoration: none;
+	color: #800000;
+}
+#right a:hover {
+	text-decoration: none;
+	color: #FF0909;
+}#right_in_right {
+	padding: 3px;
+	width: 48%;
+	float: left;
+	margin-top: 10px;
+	margin-left: 2px;
+}
+#left_in_right {
+	padding: 4px;
+	width: 45%;
+	float: left;
+	margin-right: 2px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#right hr {
+	border: 1px solid #21007F;
+	width: 100%;
+	background-color: #21007F;
+}
+.MyImage{
+	
+	border-style: none;
+	border-width: 0;
+	margin: 4px 5px;
+}
+
+}
