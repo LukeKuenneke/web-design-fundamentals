@@ -1,0 +1,50 @@
+body 
+{ 
+	background-color: #ffffcc;
+	color: #003300;
+	font-family: Arial, Helvetica, sans-serif; 
+}
+
+h2 
+{
+	background-color:#ffffcc;
+	color:#003366;
+}
+
+h3
+{
+	background-color:#ffffcc;
+    color:#006600;
+}
+
+dd 
+{
+	font-style:italic; 
+    font-size:.90em;
+    line-height:200%;
+}
+
+#header 
+{ 
+	background-color:#ffffcc;
+	color:#48751A;
+}
+
+.nav 
+{ 
+	font-weight:bold;
+	font-size: 1.2em;
+}
+
+.contact 
+{ 
+	font-family: "Times New Roman", serif;
+	font-size: .90em;
+	font-weight:bold;
+}
+
+#footer 
+{ 
+	font-size: .60em;
+	font-style: italic;
+}
