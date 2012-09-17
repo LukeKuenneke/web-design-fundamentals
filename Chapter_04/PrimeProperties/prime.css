@@ -42,7 +42,9 @@ dd
 }
 
 #header 
-{ 
+{
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"> 
 	color:#48751A;
 }
 
