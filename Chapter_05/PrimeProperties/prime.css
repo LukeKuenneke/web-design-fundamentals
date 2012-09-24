@@ -1,0 +1,73 @@
+body 
+{ 
+	background-color: #000033;
+	background-image: url(primehorizontal.png);
+	color: #003300;
+	font-family: Arial, Helvetica, sans-serif; 
+}
+
+#wrapper 
+{ 
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffffcc;
+	min-width: 700px;
+	padding: 0 0 20px 30px;
+	border: 1px ridge #00332B; 
+	-webkit-box-shadow: inset -3px -3px 3px 3px #00332B;
+	-moz-box-shadow: inset -3px -3px 3px 3px #00332B;
+	box-shadow: inset -3px -3px 3px 3px #00332B;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+h2 
+{ 
+	color:#003366;
+}
+
+h3
+{ 
+	color:#006600;
+	padding-top: 10px;
+}
+
+dd 
+{
+	font-style:italic; 
+    font-size:.90em;
+    line-height:200%;
+}
+
+#header 
+{
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"> 
+	color:#48751A;
+}
+
+.contact 
+{ 
+	font-family: "Times New Roman", serif;
+	font-size: .90em;
+	font-weight:bold;
+}
+
+.nav 
+{ 
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+#footer 
+{ 
+	font-size: .60em;
+	font-style: italic;
+}
+
+img 
+{ 
+	border-style: none; 
+}
