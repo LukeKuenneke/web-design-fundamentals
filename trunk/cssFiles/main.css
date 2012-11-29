@@ -5,7 +5,7 @@
 * body {
 	font: .8em Arial, Sans-Serif;
 	line-height: 1.8em;
-	background: #968CC4;
+	background: #CECECE url(../images/bg_img.gif);
 	color: #444;
 }
 a {
