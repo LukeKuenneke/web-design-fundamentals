@@ -29,8 +29,8 @@ if(isset($_POST['email'])) {
     $last_name = $_POST['last_name']; // required
     $email_from = $_POST['email']; // required
     $telephone = $_POST['telephone']; // not required
-	$telephone = $_POST['other_contact']; // not required
-	$telephone = $_POST['interests']; // not required
+	$other_contact = $_POST['other_contact']; // not required
+	$interests = $_POST['interests']; // not required
     $comments = $_POST['comments']; // required
      
     $error_message = "";
@@ -67,7 +67,7 @@ if(isset($_POST['email'])) {
     $email_message .= "Comments: ".clean_string($comments)."\n";
      
      
-// create email headers
+// create email headers1
 $headers = 'From: '.$email_from."\r\n".
 'Reply-To: '.$email_from."\r\n" .
 'X-Mailer: PHP/' . phpversion();
