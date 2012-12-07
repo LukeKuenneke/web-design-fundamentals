@@ -223,3 +223,6 @@ body{
 .container .content table tr td h2 .style4 {
 
 }
+.container .content table tr td {
+	font-size: 12px;
+}

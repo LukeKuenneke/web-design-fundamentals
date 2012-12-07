@@ -5,8 +5,9 @@
 * body {
 	font: .8em Arial, Sans-Serif;
 	line-height: 1.8em;
-	background: #CECECE url(../images/bg_img.gif);
 	color: #444;
+	background-color: #FF00FF;
+	background-image: url(../images/bg_img.gif);
 }
 a {
 	color: #FFFFFF;
@@ -23,7 +24,7 @@ a:hover {
 h2 {
 	margin: 0 0 10px;
 	padding: 10px 0 3px;
-	color: #C63221;
+	color: #33CC33;
 }
 h3 {
 	padding-left: 10px;
