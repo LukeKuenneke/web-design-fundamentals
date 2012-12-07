@@ -62,8 +62,8 @@ if(isset($_POST['email'])) {
     $email_message .= "Last Name: ".clean_string($last_name)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
     $email_message .= "Telephone: ".clean_string($telephone)."\n";
-	$email_message .= "Telephone: ".clean_string($other_contact)."\n";
-	$email_message .= "Telephone: ".clean_string($interests)."\n";
+	$email_message .= "Other Contact: ".clean_string($other_contact)."\n";
+	$email_message .= "Interests: ".clean_string($interests)."\n";
     $email_message .= "Comments: ".clean_string($comments)."\n";
      
      
