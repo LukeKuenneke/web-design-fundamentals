@@ -1,15 +1,13 @@
 <?php
 if(isset($_POST['email'])) {
      
-    // CHANGE THE TWO LINES BELOW
     $email_to = "luke.kuenneke@gmail.com";
      
     $email_subject = "website html form submissions";
      
      
     function died($error) {
-        // your error code can go here
-        echo "We are very sorry, but there were error(s) found with the form you submitted. ";
+        echo "I am very sorry, but there were error(s) found with the form you submitted. ";
         echo "These errors appear below.<br /><br />";
         echo $error."<br /><br />";
         echo "Please go back and fix these errors.<br /><br />";
@@ -21,7 +19,9 @@ if(isset($_POST['email'])) {
         !isset($_POST['last_name']) ||
         !isset($_POST['email']) ||
         !isset($_POST['telephone']) ||
-        !isset($_POST['comments'])) {
+        !isset($_POST['comments']) ||
+		!isset($_POST['interests']) ||
+		!isset($_POST['other_contact'])) {
         died('We are sorry, but there appears to be a problem with the form you submitted.');       
     }
      
@@ -29,6 +29,8 @@ if(isset($_POST['email'])) {
     $last_name = $_POST['last_name']; // required
     $email_from = $_POST['email']; // required
     $telephone = $_POST['telephone']; // not required
+	$telephone = $_POST['other_contact']; // not required
+	$telephone = $_POST['interests']; // not required
     $comments = $_POST['comments']; // required
      
     $error_message = "";
@@ -60,6 +62,8 @@ if(isset($_POST['email'])) {
     $email_message .= "Last Name: ".clean_string($last_name)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
     $email_message .= "Telephone: ".clean_string($telephone)."\n";
+	$email_message .= "Telephone: ".clean_string($other_contact)."\n";
+	$email_message .= "Telephone: ".clean_string($interests)."\n";
     $email_message .= "Comments: ".clean_string($comments)."\n";
      
      
@@ -72,7 +76,7 @@ $headers = 'From: '.$email_from."\r\n".
  
 <!-- place your own success html below -->
  
-Thank you for Luke Kuenneke. I will get back to you as soon as possible.
+Thank you for contacting Lucas Kuenneke. I will get back to you as soon as possible.
  
 <?php
 }
